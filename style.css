@@ -37,7 +37,8 @@
 .card {
     position: relative;
     width: 32%;
-    height: 40%;
+    height: 380px;
+    max-height: 380px;
     background: var(--ark-Grayish-Blue);
     display: flex;
     flex-direction: column;
@@ -53,6 +54,8 @@
         width: 90%;
         height: 60%;
     }
+
+
 }
 
 .card-title {
@@ -69,7 +72,6 @@
     color: var(--Light-Cyan);
     font-weight: 800;
     margin-bottom: 2rem;
-
 
 }
 

@@ -7,7 +7,7 @@ async function generate () {
     const data = await res.json();
 
     id.textContent = data.slip.id;
-    text.textContent = `${data.slip.advice}`;
+    text.textContent = `"${data.slip.advice}"`;
 }
 
 btn.onclick = () => {
